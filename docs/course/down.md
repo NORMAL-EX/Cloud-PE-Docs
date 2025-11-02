@@ -8,4 +8,4 @@
 2. 在 Cloud-PE 中通过 Cloud-插件市场 获取
 
 ## 下载 Cloud-PE One
-[点此下载 Cloud-PE One](https://files.cloud-pe.cn/%E4%B8%8B%E8%BD%BD/Cloud-PE%E6%96%87%E4%BB%B6/Cloud-PE%20One)
+[点此下载 Cloud-PE One](https://files.cloud-pe.cn/d/%E4%B8%8B%E8%BD%BD/Cloud-PE%E6%96%87%E4%BB%B6/Cloud-PE%20One/Cloud-PE%20One.zip)

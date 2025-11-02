@@ -2,19 +2,52 @@
 <br>
 <Badge type="tip" style="font-size: 0.9em;">排名不分先后，如有遗漏请谅解并联系我们补充</Badge>
 
-## 项目主要成员
+## 项目主要成员 & 其他贡献人员
 
-PE内核开发：RUZ-EX
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
 
-软件开发：Hello,World!&RUZ-EX
+const members = [
+  {
+    avatar: 'https://pic1.imgdb.cn/item/6878b8cc58cb8da5c8be83b3.jpg',
+    name: 'dsfggggg',
+    title: 'PE内核开发、软件开发、服务器&域名提供、运维、视频录制',
+    links: [
+      { icon: 'wordpress', link: 'https://blog.cloud-pe.cn' },
+      { icon: 'github', link: 'https://github.com/NORMAL-EX' }
+    ]
+  },
+  {
+    avatar: 'https://pic1.imgdb.cn/item/6869262058cb8da5c8917549.jpg', 
+    name: 'Hello,World!',
+    title: '高级软件开发、运维、视频剪辑',
+    links: [
+      { icon: 'github', link: 'https://github.com/hwyyds-skidder-team' }
+    ]
+  },
+  {
+    avatar: 'https://pic1.imgdb.cn/item/6869266b58cb8da5c8917555.jpg', 
+    name: '普普通通のNeko',
+    title: '服务器提供、运维、独立视频制作'
+  },
+  {
+    avatar: 'http://q.qlogo.cn/headimg_dl?dst_uin=1057018461&spec=640&img_type=jpg', 
+    name: 'Windows11电脑的cmd',
+    title: '高级独立视频制作、项目宣传、PE优化'
+  },
+  {
+    avatar: 'https://pic1.imgdb.cn/item/68692e8058cb8da5c891770e.jpg',
+    name: 'JBT-RAMOS',
+    title: '其他贡献人员：部分PE制作技术指导',
+    links: [
+      { icon: 'bilibili', link: 'https://space.bilibili.com/3493129957149016' }
+    ]
+  }
+]
+</script>
 
-H5网站编写：RUZ-EX
+<VPTeamMembers size="small" :members="members" />
 
-服务器提供：RUZ-EX&nachonekoawa
-
-下载服务提供：RUZ-EX
-
-运维：nachonekoawa&Hello,World!&RUZ-EX
 
 ## 插件制作贡献人员
 
@@ -43,9 +76,6 @@ H5网站编写：RUZ-EX
 
 <table tabindex="0"><thead><tr><th>总贡献数目：</th><td v-if="message !== '获取中...'"><strong>{{ totalContributions }}个</strong></td></tr></thead></table>
 
-## PE部分制作技术指导
-JBT
-
 ---
 
 ### 感谢所有对本项目做出贡献的人！
@@ -57,7 +87,7 @@ export default {
     const nameKeyCount = ref(0);
     onMounted(async () => {
       try {
-        const response = await fetch('https://api.ce-ramos.cn/EdgelessPlugins/');
+        const response = await fetch('https://api.cloud-pe.cn/EdgelessPlugins/');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -86,7 +116,7 @@ export default {
   },
   methods: {
     fetchPluginsText() {
-      fetch('https://api.ce-ramos.cn/PluginsList/')
+      fetch('https://api.cloud-pe.cn/PluginsList/')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');

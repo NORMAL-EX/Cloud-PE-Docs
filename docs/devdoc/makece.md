@@ -1,17 +1,18 @@
 # 制作 CE-插件
 :::tip 提示
-若您是插件制作新手，可以使用 [Cloud-PE插件助手](https://p0.ce-ramos.cn/CE-RAMOS%E6%96%87%E4%BB%B6/CE-%E6%8F%92%E4%BB%B6%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/CEMake.exe) 进行向导式制作。
+若您是插件制作新手，可以使用 [Cloud-PE插件助手](https://p0.cloud-pe.cn/Cloud-PE%E6%96%87%E4%BB%B6/CE-%E6%8F%92%E4%BB%B6%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/CEMake.exe) 进行向导式制作。
 若要查看PE版本号，请启动PE并打开 Cloud-小助手 软件，即可看到PE版本号。
 
-![查看PE版本号](https://pic1.imgdb.cn/item/6868fa1758cb8da5c891403f.png)
+<img src="https://pic1.imgdb.cn/item/6905c8d63203f7be00bf6252.png" alt="查看PE版本号" width="500">
+
 :::
 本文旨在帮助新手快速掌握插件包的开发流程，并促进 Cloud-PE 开发团队构建 CE-插件 的生态圈。
 
-对于初学者，我们推荐使用 Cloud-PE插件助手 进行制作。点击以下链接下载工具。
+对于初学者，我们推荐使用 Cloud-PE插件助手 进行制作。[点击此处](https://p0.cloud-pe.cn/Cloud-PE%E6%96%87%E4%BB%B6/CE-%E6%8F%92%E4%BB%B6%E5%88%B6%E4%BD%9C%E5%B7%A5%E5%85%B7/CEMake.exe)下载工具。
 
 如果您发现 Cloud-PE插件助手 无法满足您的需求，或者您希望亲自尝试制作，请继续阅读以下教程。
 
-以`DiskGenius`为例，以下是所需文件的列表：
+以 `DiskGenius` 为例，以下是所需文件的列表：
 
 ![DiskGenius文件列表](https://pic.imgdb.cn/item/66e7b942d9c307b7e9dc932d.png)
 
@@ -27,7 +28,7 @@
 简单的创建快捷方式等功能可以通过 `lnk.cfg` 配置文件实现。
 :::
 
-<blockquote><p><code>lnk.cfg</code>配置文件内容规范如下：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><strong>;😀以下是所有目前可使用的命令</strong></span>
+<blockquote><p><code>lnk.cfg</code>配置文件内容规范如下：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><strong>;以下是所有目前可使用的命令</strong></span>
 <span class="line"><strong>;⭐每一个命令都可以多次使用，例：在"复制文件"后加任意字符作为配置节后则可以再次使用</strong></span>
 <span class="line"><strong>;⚠️本配置文件需要以UTF-8格式保存</strong></span>
 <span class="line"><strong>;⚠️在目标路径中可以使用变量%FN%表示当前目录</strong></span>

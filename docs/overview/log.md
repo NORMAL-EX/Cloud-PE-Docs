@@ -17,26 +17,6 @@
 Cloud-PE One 还处于发布初期，可能存在些许 Bug
 :::
 
-## 项目主要成员
-
-PE内核开发：RUZ-EX
-
-软件开发：Hello,World!&RUZ-EX
-
-H5网站编写：RUZ-EX
-
-服务器提供：RUZ-EX&nachonekoawa
-
-下载服务提供：RUZ-EX
-
-运维：nachonekoawa&Hello,World!&RUZ-EX
-
----
-
-### 感谢他们对本项目做出的贡献！
-
-
-
 <script>  
 export default {  
   data() {  
@@ -47,7 +27,7 @@ export default {
   },  
   methods: {  
     fetchInfo() {  
-      fetch('https://api.ce-ramos.cn/GetInfo/')  
+      fetch('https://api.cloud-pe.cn/GetInfo/')  
         .then(response => {  
           if (!response.ok) {  
             throw new Error('Network response was not ok');  

@@ -17,14 +17,14 @@ Cloud-PE 是**非盈利性质**的软件：
 - [HotPE Docs](https://docs.hotpe.top/)
 
 ## 视频介绍
-Cloud-PE v2.2 Pro 体验视频：
+Cloud-PE v1.2 体验视频：
 
 <div class="video-container">
   <video 
     style="width: 100%;" 
     controls="controls" 
-    poster="https://pic.imgdb.cn/item/66e7b8acd9c307b7e9dbfc3f.jpg">
-    <source src="https://p1.ce-ramos.cn/Cloud-PE.mp4" type="video/mp4">
+    poster="https://pic1.imgdb.cn/item/6905cf363203f7be00bf7882.png">
+    <source src="https://p1.cloud-pe.cn/cloud-pe-preview.mp4" type="video/mp4">
     您的浏览器不支持 video 标签
   </video>
 </div>
