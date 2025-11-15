@@ -188,10 +188,15 @@
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
-"@rollup/rollup-win32-x64-msvc@4.18.0":
-  version "4.18.0"
-  resolved "https://registry.npmmirror.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.18.0.tgz"
-  integrity sha512-UOo5FdvOL0+eIVTgS4tIdbW+TtnBLWg1YBCcU2KWM7nuNwRz9bksDX1bekJJCpu25N1DVWaCwnT39dVQxzqS8g==
+"@rollup/rollup-win32-x64-gnu@4.53.2":
+  version "4.53.2"
+  resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.53.2.tgz"
+  integrity sha512-S6YojNVrHybQis2lYov1sd+uj7K0Q05NxHcGktuMMdIQ2VixGwAfbJ23NnlvvVV1bdpR2m5MsNBViHJKcA4ADw==
+
+"@rollup/rollup-win32-x64-msvc@4.53.2":
+  version "4.53.2"
+  resolved "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.53.2.tgz"
+  integrity sha512-k+/Rkcyx//P6fetPoLMb8pBeqJBNGx81uuf7iljX9++yNBVRDQgD04L+SVXmXmh5ZP4/WOp4mWF0kmi06PW2tA==
 
 "@shikijs/core@^1.6.2", "@shikijs/core@1.6.5":
   version "1.6.5"
@@ -205,10 +210,10 @@
   dependencies:
     shiki "1.6.5"
 
-"@types/estree@1.0.5":
-  version "1.0.5"
-  resolved "https://registry.npmmirror.com/@types/estree/-/estree-1.0.5.tgz"
-  integrity sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
+"@types/estree@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz"
+  integrity sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==
 
 "@types/linkify-it@^5":
   version "5.0.0"
@@ -395,6 +400,13 @@ algoliasearch@^4.19.1, "algoliasearch@>= 4.9.1 < 6":
     "@algolia/requester-node-http" "4.23.3"
     "@algolia/transporter" "4.23.3"
 
+artplayer@^5.1.7:
+  version "5.3.0"
+  resolved "https://registry.npmjs.org/artplayer/-/artplayer-5.3.0.tgz"
+  integrity sha512-yExO39MpEg4P+bxgChxx1eJfiUPE4q1QQRLCmqGhlsj+ANuaoEkR8hF93LdI5ZyrAcIbJkuEndxEiUoKobifDw==
+  dependencies:
+    option-validator "^2.0.6"
+
 csstype@^3.1.3:
   version "3.1.3"
   resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz"
@@ -451,6 +463,11 @@ hookable@^5.5.3:
   resolved "https://registry.npmmirror.com/hookable/-/hookable-5.5.3.tgz"
   integrity sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==
 
+kind-of@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
+  integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
 magic-string@^0.30.10:
   version "0.30.10"
   resolved "https://registry.npmmirror.com/magic-string/-/magic-string-0.30.10.tgz"
@@ -473,29 +490,36 @@ mitt@^3.0.1:
   resolved "https://registry.npmmirror.com/mitt/-/mitt-3.0.1.tgz"
   integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
 
-nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.7.tgz"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
+nanoid@^3.3.11:
+  version "3.3.11"
+  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz"
+  integrity sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==
+
+option-validator@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/option-validator/-/option-validator-2.0.6.tgz"
+  integrity sha512-tmZDan2LRIRQyhUGvkff68/O0R8UmF+Btmiiz0SmSw2ng3CfPZB9wJlIjHpe/MKUZqyIZkVIXCrwr1tIN+0Dzg==
+  dependencies:
+    kind-of "^6.0.3"
 
 perfect-debounce@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/perfect-debounce/-/perfect-debounce-1.0.0.tgz"
   integrity sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==
 
-picocolors@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/picocolors/-/picocolors-1.0.1.tgz"
-  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
+picocolors@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz"
+  integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
-postcss@^8, postcss@^8.4.38:
-  version "8.4.38"
-  resolved "https://registry.npmmirror.com/postcss/-/postcss-8.4.38.tgz"
-  integrity sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==
+postcss@^8, postcss@^8.4.38, postcss@^8.4.43:
+  version "8.5.6"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz"
+  integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
   dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.0"
-    source-map-js "^1.2.0"
+    nanoid "^3.3.11"
+    picocolors "^1.1.1"
+    source-map-js "^1.2.1"
 
 preact@^10.0.0:
   version "10.22.0"
@@ -507,29 +531,35 @@ rfdc@^1.3.1:
   resolved "https://registry.npmmirror.com/rfdc/-/rfdc-1.4.1.tgz"
   integrity sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==
 
-rollup@^4.13.0:
-  version "4.18.0"
-  resolved "https://registry.npmmirror.com/rollup/-/rollup-4.18.0.tgz"
-  integrity sha512-QmJz14PX3rzbJCN1SG4Xe/bAAX2a6NpCP8ab2vfu2GiUr8AQcr2nCV/oEO3yneFarB67zk8ShlIyWb2LGTb3Sg==
+rollup@^4.20.0:
+  version "4.53.2"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-4.53.2.tgz"
+  integrity sha512-MHngMYwGJVi6Fmnk6ISmnk7JAHRNF0UkuucA0CUW3N3a4KnONPEZz+vUanQP/ZC/iY1Qkf3bwPWzyY84wEks1g==
   dependencies:
-    "@types/estree" "1.0.5"
+    "@types/estree" "1.0.8"
   optionalDependencies:
-    "@rollup/rollup-android-arm-eabi" "4.18.0"
-    "@rollup/rollup-android-arm64" "4.18.0"
-    "@rollup/rollup-darwin-arm64" "4.18.0"
-    "@rollup/rollup-darwin-x64" "4.18.0"
-    "@rollup/rollup-linux-arm-gnueabihf" "4.18.0"
-    "@rollup/rollup-linux-arm-musleabihf" "4.18.0"
-    "@rollup/rollup-linux-arm64-gnu" "4.18.0"
-    "@rollup/rollup-linux-arm64-musl" "4.18.0"
-    "@rollup/rollup-linux-powerpc64le-gnu" "4.18.0"
-    "@rollup/rollup-linux-riscv64-gnu" "4.18.0"
-    "@rollup/rollup-linux-s390x-gnu" "4.18.0"
-    "@rollup/rollup-linux-x64-gnu" "4.18.0"
-    "@rollup/rollup-linux-x64-musl" "4.18.0"
-    "@rollup/rollup-win32-arm64-msvc" "4.18.0"
-    "@rollup/rollup-win32-ia32-msvc" "4.18.0"
-    "@rollup/rollup-win32-x64-msvc" "4.18.0"
+    "@rollup/rollup-android-arm-eabi" "4.53.2"
+    "@rollup/rollup-android-arm64" "4.53.2"
+    "@rollup/rollup-darwin-arm64" "4.53.2"
+    "@rollup/rollup-darwin-x64" "4.53.2"
+    "@rollup/rollup-freebsd-arm64" "4.53.2"
+    "@rollup/rollup-freebsd-x64" "4.53.2"
+    "@rollup/rollup-linux-arm-gnueabihf" "4.53.2"
+    "@rollup/rollup-linux-arm-musleabihf" "4.53.2"
+    "@rollup/rollup-linux-arm64-gnu" "4.53.2"
+    "@rollup/rollup-linux-arm64-musl" "4.53.2"
+    "@rollup/rollup-linux-loong64-gnu" "4.53.2"
+    "@rollup/rollup-linux-ppc64-gnu" "4.53.2"
+    "@rollup/rollup-linux-riscv64-gnu" "4.53.2"
+    "@rollup/rollup-linux-riscv64-musl" "4.53.2"
+    "@rollup/rollup-linux-s390x-gnu" "4.53.2"
+    "@rollup/rollup-linux-x64-gnu" "4.53.2"
+    "@rollup/rollup-linux-x64-musl" "4.53.2"
+    "@rollup/rollup-openharmony-arm64" "4.53.2"
+    "@rollup/rollup-win32-arm64-msvc" "4.53.2"
+    "@rollup/rollup-win32-ia32-msvc" "4.53.2"
+    "@rollup/rollup-win32-x64-gnu" "4.53.2"
+    "@rollup/rollup-win32-x64-msvc" "4.53.2"
     fsevents "~2.3.2"
 
 "search-insights@>= 1 < 3":
@@ -544,10 +574,10 @@ shiki@^1.6.2, shiki@1.6.5:
   dependencies:
     "@shikijs/core" "1.6.5"
 
-source-map-js@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.0.tgz"
-  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
+source-map-js@^1.2.0, source-map-js@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz"
+  integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
 speakingurl@^14.0.1:
   version "14.0.1"
@@ -560,13 +590,13 @@ tabbable@^6.2.0:
   integrity sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==
 
 vite@^5.0.0, vite@^5.2.12:
-  version "5.3.1"
-  resolved "https://registry.npmmirror.com/vite/-/vite-5.3.1.tgz"
-  integrity sha512-XBmSKRLXLxiaPYamLv3/hnP/KXDai1NDexN0FpkTaZXTfycHvkRHoenpgl/fvuK/kPbB6xAgoyiryAhQNxYmAQ==
+  version "5.4.21"
+  resolved "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz"
+  integrity sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw==
   dependencies:
     esbuild "^0.21.3"
-    postcss "^8.4.38"
-    rollup "^4.13.0"
+    postcss "^8.4.43"
+    rollup "^4.20.0"
   optionalDependencies:
     fsevents "~2.3.3"
 

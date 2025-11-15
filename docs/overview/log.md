@@ -11,7 +11,7 @@
 ### Cloud-PE One
 
 * 技术栈： Tauri、Rust、TypeScript、Vite、React、Semi Design
-<Badge type="tip">版本：{{ hub_version }}</Badge> <Badge type="info">作者：RUZ-EX & Hello,World!</Badge> <Badge type="warning">版本类型：Stable</Badge>
+<Badge type="tip">版本：{{ hub_version }}</Badge> <Badge type="info">作者：dddffgg & Hello,World!</Badge> <Badge type="warning">版本类型：Stable</Badge>
 
 :::tip 提示
 Cloud-PE One 还处于发布初期，可能存在些许 Bug

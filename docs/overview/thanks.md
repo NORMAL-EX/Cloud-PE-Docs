@@ -10,7 +10,7 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://pic1.imgdb.cn/item/6906fb8f3203f7be00c2cbc7.png',
-    name: 'dsfggggg',
+    name: 'dddffgg',
     title: 'PE内核开发、软件开发、服务器&域名提供、运维、视频录制',
     links: [
       { icon: 'wordpress', link: 'https://blog.cloud-pe.cn' },
